@@ -1,0 +1,34 @@
+@relation 吃
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,live_on,wipe_out,suffer,eat}
+
+@data
+{4 d,5 d,6 eat}
+{4 Tg,5 n,6 eat}
+{4 v,5 n,6 eat}
+{4 p,5 v,6 eat}
+{4 d,5 u,6 eat}
+{4 q,5 n,6 eat}
+{4 v,5 u,6 eat}
+{4 d,5 u,6 eat}
+{4 v,5 w,6 eat}
+{4 v,5 n,6 eat}
+{0 1,4 n,5 n,6 live_on}
+{4 w,5 n,6 live_on}
+{4 v,5 n,6 live_on}
+{4 w,5 u,6 suffer}
+{2 1,4 c,5 u,6 suffer}
+{4 p,5 v,6 suffer}
+{4 d,5 m,6 suffer}
+{2 1,4 w,5 r,6 suffer}
+{4 d,5 u,6 suffer}
+{4 d,5 u,6 suffer}
+{1 1,4 v,5 nr,6 wipe_out}
+{1 1,4 n,5 n,6 wipe_out}
+{1 1,4 m,5 Ng,6 wipe_out}

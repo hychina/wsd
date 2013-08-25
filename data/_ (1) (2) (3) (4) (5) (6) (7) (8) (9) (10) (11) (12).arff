@@ -1,0 +1,56 @@
+@relation 进
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute word_4 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,into,enter,buy_in,move,move_forward}
+
+@data
+{5 v,6 n,7 into}
+{5 v,6 r,7 into}
+{5 d,6 w,7 into}
+{5 v,6 u,7 into}
+{5 v,6 ns,7 into}
+{5 v,6 u,7 into}
+{5 v,6 v,7 into}
+{5 v,6 m,7 into}
+{5 v,6 n,7 into}
+{5 d,6 w,7 into}
+{5 t,6 n,7 enter}
+{5 w,6 ns,7 enter}
+{5 v,6 n,7 enter}
+{5 n,6 n,7 enter}
+{5 d,6 n,7 enter}
+{5 d,6 t,7 enter}
+{5 v,6 n,7 enter}
+{5 d,6 u,7 enter}
+{5 n,6 Ng,7 enter}
+{5 n,6 n,7 enter}
+{4 1,5 q,6 w,7 move_forward}
+{5 n,6 n,7 move_forward}
+{5 v,6 f,7 move_forward}
+{5 m,6 m,7 move_forward}
+{5 d,6 m,7 move_forward}
+{5 Vg,6 d,7 move_forward}
+{5 Ag,6 w,7 move_forward}
+{5 d,6 w,7 move_forward}
+{5 w,6 w,7 move_forward}
+{5 Ng,6 w,7 move_forward}
+{5 c,6 v,7 buy_in}
+{5 d,6 d,7 buy_in}
+{5 n,6 n,7 buy_in}
+{5 n,6 v,7 buy_in}
+{3 1,5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{3 1,5 m,6 m,7 move}
+{3 1,5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{5 m,6 m,7 move}
+{3 1,5 d,6 n,7 move}

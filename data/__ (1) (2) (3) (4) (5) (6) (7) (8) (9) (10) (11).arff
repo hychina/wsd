@@ -1,0 +1,42 @@
+@relation 日子
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,life,day,date}
+
+@data
+{3 u,4 w,5 date}
+{3 u,4 w,5 date}
+{3 u,4 d,5 date}
+{3 u,4 w,5 date}
+{3 u,4 w,5 date}
+{3 u,4 w,5 date}
+{3 r,4 w,5 date}
+{3 u,4 w,5 date}
+{3 n,4 Ng,5 date}
+{3 u,4 w,5 date}
+{3 u,4 f,5 day}
+{3 u,4 w,5 day}
+{3 u,4 f,5 day}
+{3 u,4 d,5 day}
+{3 u,4 f,5 day}
+{3 r,4 w,5 day}
+{3 u,4 w,5 day}
+{3 u,4 f,5 day}
+{3 u,4 w,5 day}
+{3 bos,4 d,5 day}
+{3 t,4 w,5 day}
+{3 z,4 u,5 life}
+{3 u,4 w,5 life}
+{3 w,4 a,5 life}
+{3 u,4 d,5 life}
+{3 v,4 d,5 life}
+{3 u,4 w,5 life}
+{3 v,4 d,5 life}
+{3 w,4 n,5 life}
+{3 u,4 w,5 life}
+{3 u,4 c,5 life}
+{3 bos,4 m,5 life}

@@ -1,0 +1,48 @@
+@relation 发
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute word_4 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,send,appear,publish,express,occur}
+
+@data
+{5 d,6 a,7 appear}
+{5 n,6 a,7 appear}
+{5 s,6 a,7 appear}
+{5 n,6 a,7 appear}
+{2 1,5 nt,6 w,7 publish}
+{5 d,6 u,7 publish}
+{5 d,6 u,7 publish}
+{5 v,6 b,7 publish}
+{5 u,6 n,7 publish}
+{2 1,5 nt,6 w,7 publish}
+{5 w,6 m,7 publish}
+{5 w,6 u,7 publish}
+{5 n,6 u,7 occur}
+{5 a,6 n,7 occur}
+{5 n,6 Ng,7 occur}
+{5 a,6 n,7 occur}
+{3 1,5 n,6 u,7 express}
+{5 d,6 u,7 express}
+{3 1,5 n,6 u,7 express}
+{3 1,5 n,6 u,7 express}
+{3 1,5 n,6 u,7 express}
+{5 d,6 u,7 express}
+{3 1,5 d,6 u,7 express}
+{3 1,5 n,6 u,7 express}
+{3 1,5 n,6 u,7 express}
+{5 t,6 u,7 express}
+{5 nt,6 u,7 send}
+{5 v,6 n,7 send}
+{5 w,6 n,7 send}
+{5 bos,6 n,7 send}
+{5 n,6 v,7 send}
+{5 v,6 vd,7 send}
+{5 n,6 v,7 send}
+{4 1,5 w,6 v,7 send}
+{5 n,6 m,7 send}
+{5 n,6 a,7 send}

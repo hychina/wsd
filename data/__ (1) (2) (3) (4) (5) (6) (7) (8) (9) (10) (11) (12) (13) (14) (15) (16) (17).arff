@@ -1,0 +1,25 @@
+@relation 气象
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,atmosphere,meteorology}
+
+@data
+{2 w,3 u,4 meteorology}
+{2 n,3 an,4 meteorology}
+{2 n,3 a,4 meteorology}
+{2 c,3 n,4 meteorology}
+{2 u,3 an,4 meteorology}
+{2 n,3 vn,4 meteorology}
+{2 u,3 w,4 meteorology}
+{2 n,3 an,4 meteorology}
+{2 p,3 v,4 meteorology}
+{2 n,3 n,4 meteorology}
+{0 1,2 a,3 w,4 atmosphere}
+{0 1,2 u,3 w,4 atmosphere}
+{0 1,2 u,3 w,4 atmosphere}
+{2 m,3 d,4 atmosphere}
+{2 t,3 w,4 atmosphere}
+{0 1,2 a,3 w,4 atmosphere}

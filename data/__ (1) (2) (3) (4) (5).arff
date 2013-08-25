@@ -1,0 +1,29 @@
+@relation 儿女
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,young_man_and_woman,children}
+
+@data
+{2 nz,3 u,4 young_man_and_woman}
+{0 1,2 nz,3 u,4 young_man_and_woman}
+{2 nz,3 b,4 young_man_and_woman}
+{2 nz,3 u,4 young_man_and_woman}
+{0 1,2 nz,3 u,4 young_man_and_woman}
+{0 1,2 nz,3 u,4 young_man_and_woman}
+{0 1,2 nz,3 u,4 young_man_and_woman}
+{0 1,2 nz,3 u,4 young_man_and_woman}
+{2 nz,3 v,4 young_man_and_woman}
+{2 m,3 v,4 young_man_and_woman}
+{2 u,3 nr,4 children}
+{1 1,2 v,3 v,4 children}
+{2 bos,3 v,4 children}
+{2 p,3 u,4 children}
+{2 bos,3 u,4 children}
+{2 u,3 y,4 children}
+{2 v,3 Ng,4 children}
+{2 u,3 w,4 children}
+{2 c,3 k,4 children}
+{2 w,3 u,4 children}

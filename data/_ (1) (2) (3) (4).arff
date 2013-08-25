@@ -1,0 +1,22 @@
+@relation 望
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,gaze,hope}
+
+@data
+{2 n,3 v,4 gaze}
+{2 a,3 r,4 gaze}
+{2 w,3 u,4 gaze}
+{2 f,3 v,4 gaze}
+{2 w,3 u,4 gaze}
+{2 nr,3 u,4 gaze}
+{2 v,3 v,4 gaze}
+{2 f,3 v,4 gaze}
+{2 bos,3 u,4 gaze}
+{2 m,3 m,4 gaze}
+{2 d,3 f,4 hope}
+{2 bos,3 vn,4 hope}
+{2 d,3 vn,4 hope}

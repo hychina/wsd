@@ -1,0 +1,92 @@
+@relation 出
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute word_4 numeric
+@attribute word_5 numeric
+@attribute word_6 numeric
+@attribute word_7 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,emit,come_out,give,come_appear,publish,happen,out_of,produce}
+
+@data
+{8 v,9 u,10 out_of}
+{8 v,9 m,10 out_of}
+{8 v,9 a,10 out_of}
+{8 v,9 b,10 out_of}
+{6 1,8 v,9 m,10 out_of}
+{8 v,9 n,10 out_of}
+{8 v,9 i,10 out_of}
+{8 v,9 a,10 out_of}
+{8 v,9 a,10 out_of}
+{8 v,9 n,10 out_of}
+{8 n,9 n,10 happen}
+{8 w,9 u,10 happen}
+{8 n,9 u,10 happen}
+{5 1,8 d,9 p,10 happen}
+{8 f,9 u,10 happen}
+{8 f,9 u,10 happen}
+{8 n,9 n,10 happen}
+{8 d,9 w,10 happen}
+{8 n,9 r,10 happen}
+{8 n,9 u,10 happen}
+{8 a,9 a,10 come_out}
+{8 w,9 n,10 come_out}
+{8 c,9 w,10 come_out}
+{8 p,9 j,10 come_out}
+{8 f,9 v,10 come_out}
+{8 w,9 d,10 come_out}
+{8 d,9 Ng,10 come_out}
+{8 v,9 n,10 come_out}
+{8 u,9 Ng,10 come_out}
+{8 d,9 y,10 come_out}
+{8 n,9 m,10 give}
+{8 r,9 n,10 give}
+{8 v,9 w,10 give}
+{8 n,9 u,10 give}
+{8 v,9 m,10 give}
+{8 d,9 c,10 give}
+{8 c,9 u,10 give}
+{8 ns,9 w,10 give}
+{8 r,9 m,10 give}
+{8 v,9 Ng,10 give}
+{8 n,9 u,10 emit}
+{8 na,9 u,10 emit}
+{8 w,9 n,10 emit}
+{8 nr,9 u,10 emit}
+{8 w,9 u,10 produce}
+{8 a,9 w,10 produce}
+{8 a,9 w,10 produce}
+{8 v,9 n,10 produce}
+{8 v,9 a,10 produce}
+{8 v,9 a,10 produce}
+{8 w,9 a,10 produce}
+{8 v,9 m,10 produce}
+{8 d,9 q,10 produce}
+{8 d,9 n,10 produce}
+{8 d,9 w,10 publish}
+{8 v,9 m,10 publish}
+{8 w,9 n,10 publish}
+{8 d,9 p,10 publish}
+{8 n,9 u,10 publish}
+{4 1,8 ad,9 n,10 publish}
+{4 1,8 w,9 n,10 publish}
+{8 u,9 w,10 publish}
+{5 1,8 u,9 u,10 publish}
+{4 1,8 n,9 n,10 publish}
+{8 i,9 n,10 come_appear}
+{8 d,9 w,10 come_appear}
+{8 d,9 w,10 come_appear}
+{3 1,8 n,9 w,10 come_appear}
+{8 m,9 Ng,10 come_appear}
+{8 c,9 w,10 come_appear}
+{8 d,9 a,10 produce}
+{8 d,9 n,10 produce}
+{8 w,9 a,10 produce}
+{8 p,9 u,10 produce}
+{8 p,9 n,10 produce}
+{8 n,9 u,10 produce}
+{8 v,9 n,10 produce}

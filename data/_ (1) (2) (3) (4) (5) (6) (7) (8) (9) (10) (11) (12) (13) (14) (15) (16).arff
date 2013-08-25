@@ -1,0 +1,24 @@
+@relation 挑
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,raise,carry,choose}
+
+@data
+{3 f,4 n,5 choose}
+{3 d,4 u,5 choose}
+{3 v,4 v,5 choose}
+{3 r,4 w,5 choose}
+{3 bos,4 v,5 choose}
+{3 d,4 u,5 choose}
+{3 w,4 u,5 carry}
+{1 1,3 n,4 eos,5 carry}
+{3 r,4 w,5 carry}
+{1 1,3 n,4 a,5 carry}
+{1 1,3 n,4 n,5 carry}
+{3 n,4 v,5 raise}
+{3 n,4 v,5 raise}
+{0 1,3 nr,4 v,5 raise}

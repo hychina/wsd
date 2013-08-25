@@ -1,0 +1,26 @@
+@relation 牌子
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,plate,brand}
+
+@data
+{2 u,3 nz,4 brand}
+{2 v,3 w,4 brand}
+{0 1,2 n,3 eos,4 brand}
+{2 u,3 w,4 brand}
+{2 u,3 a,4 brand}
+{2 w,3 w,4 brand}
+{2 u,3 v,4 brand}
+{2 u,3 v,4 brand}
+{2 u,3 w,4 brand}
+{2 a,3 w,4 plate}
+{2 r,3 u,4 plate}
+{2 q,3 w,4 plate}
+{2 u,3 w,4 plate}
+{2 q,3 w,4 brand}
+{2 u,3 w,4 plate}
+{0 1,2 u,3 v,4 plate}
+{2 q,3 w,4 brand}

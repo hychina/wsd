@@ -1,0 +1,28 @@
+@relation 菜
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,dish,vegetable}
+
+@data
+{2 v,3 w,4 vegetable}
+{2 v,3 w,4 vegetable}
+{2 n,3 n,4 vegetable}
+{2 v,3 w,4 vegetable}
+{2 n,3 w,4 vegetable}
+{2 v,3 m,4 vegetable}
+{2 v,3 w,4 vegetable}
+{2 r,3 d,4 vegetable}
+{2 Vg,3 w,4 vegetable}
+{2 w,3 w,4 vegetable}
+{2 a,3 w,4 dish}
+{2 m,3 d,4 dish}
+{1 1,2 m,3 d,4 dish}
+{2 m,3 d,4 dish}
+{0 1,2 q,3 d,4 dish}
+{2 a,3 y,4 dish}
+{2 p,3 v,4 dish}
+{2 Ng,3 w,4 dish}
+{2 m,3 m,4 dish}

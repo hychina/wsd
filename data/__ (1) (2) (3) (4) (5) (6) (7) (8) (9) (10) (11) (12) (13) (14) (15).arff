@@ -1,0 +1,23 @@
+@relation 机组
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,set_of_machines,aircrew}
+
+@data
+{1 1,2 w,3 n,4 aircrew}
+{1 1,2 w,3 n,4 aircrew}
+{1 1,2 c,3 n,4 aircrew}
+{1 1,2 u,3 n,4 aircrew}
+{0 1,2 q,3 c,4 set_of_machines}
+{0 1,2 q,3 r,4 set_of_machines}
+{2 n,3 u,4 set_of_machines}
+{2 vn,3 u,4 set_of_machines}
+{0 1,2 n,3 d,4 set_of_machines}
+{0 1,2 q,3 d,4 set_of_machines}
+{2 q,3 d,4 set_of_machines}
+{2 vn,3 n,4 set_of_machines}
+{2 Ng,3 w,4 set_of_machines}
+{0 1,2 q,3 vn,4 set_of_machines}

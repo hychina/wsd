@@ -1,0 +1,25 @@
+@relation 中医
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,practitioner_of_Chinese_medicine,traditional_Chinese_medical_science}
+
+@data
+{2 v,3 n,4 traditional_Chinese_medical_science}
+{2 ns,3 n,4 traditional_Chinese_medical_science}
+{2 p,3 n,4 traditional_Chinese_medical_science}
+{2 w,3 n,4 traditional_Chinese_medical_science}
+{2 u,3 n,4 traditional_Chinese_medical_science}
+{1 1,2 v,3 v,4 traditional_Chinese_medical_science}
+{2 v,3 vn,4 traditional_Chinese_medical_science}
+{2 ns,3 na,4 traditional_Chinese_medical_science}
+{2 ns,3 na,4 traditional_Chinese_medical_science}
+{2 ns,3 n,4 traditional_Chinese_medical_science}
+{2 a,3 n,4 practitioner_of_Chinese_medicine}
+{2 a,3 w,4 practitioner_of_Chinese_medicine}
+{1 1,2 a,3 nr,4 practitioner_of_Chinese_medicine}
+{2 a,3 nr,4 practitioner_of_Chinese_medicine}
+{2 a,3 nr,4 practitioner_of_Chinese_medicine}
+{2 u,3 n,4 practitioner_of_Chinese_medicine}

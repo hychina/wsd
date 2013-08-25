@@ -1,0 +1,82 @@
+@relation 带
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute word_4 numeric
+@attribute word_5 numeric
+@attribute word_6 numeric
+@attribute word_7 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,instruct,promote,have,take,lead,wear,and,carry_with}
+
+@data
+{8 r,9 n,10 lead}
+{8 d,9 n,10 lead}
+{8 r,9 v,10 lead}
+{8 nr,9 n,10 lead}
+{8 d,9 u,10 lead}
+{8 n,9 v,10 lead}
+{8 v,9 r,10 lead}
+{8 d,9 r,10 lead}
+{3 1,8 n,9 a,10 lead}
+{8 v,9 u,10 lead}
+{8 n,9 v,10 instruct}
+{0 1,8 w,9 n,10 instruct}
+{8 q,9 m,10 instruct}
+{8 r,9 m,10 instruct}
+{8 s,9 v,10 instruct}
+{8 w,9 n,10 instruct}
+{8 n,9 n,10 instruct}
+{0 1,8 w,9 n,10 instruct}
+{8 r,9 u,10 instruct}
+{8 t,9 u,10 instruct}
+{8 f,9 Ag,10 have}
+{8 f,9 n,10 have}
+{8 q,9 n,10 have}
+{8 m,9 n,10 have}
+{8 d,9 r,10 have}
+{8 f,9 v,10 have}
+{8 r,9 n,10 have}
+{2 1,8 r,9 n,10 have}
+{8 d,9 v,10 have}
+{8 n,9 m,10 have}
+{8 bos,9 v,10 carry_with}
+{8 na,9 v,10 carry_with}
+{3 1,8 n,9 v,10 carry_with}
+{8 t,9 v,10 carry_with}
+{8 f,9 v,10 carry_with}
+{8 vn,9 p,10 carry_with}
+{8 n,9 p,10 carry_with}
+{8 n,9 u,10 carry_with}
+{8 v,9 u,10 carry_with}
+{8 v,9 v,10 carry_with}
+{8 m,9 m,10 promote}
+{8 a,9 a,10 promote}
+{8 n,9 n,10 promote}
+{1 1,8 w,9 n,10 promote}
+{8 a,9 f,10 promote}
+{8 a,9 f,10 promote}
+{8 n,9 m,10 promote}
+{8 n,9 n,10 promote}
+{8 n,9 n,10 promote}
+{8 n,9 n,10 promote}
+{8 r,9 n,10 take}
+{8 d,9 n,10 take}
+{8 d,9 w,10 take}
+{8 v,9 vn,10 take}
+{4 1,8 n,9 m,10 take}
+{8 v,9 m,10 take}
+{8 r,9 u,10 take}
+{8 d,9 u,10 take}
+{8 v,9 q,10 take}
+{8 Ng,9 u,10 take}
+{8 v,9 v,10 and}
+{8 n,9 n,10 and}
+{8 v,9 v,10 and}
+{8 n,9 Ng,10 and}
+{8 d,9 Ng,10 wear}
+{8 n,9 n,10 wear}
+{8 w,9 n,10 wear}

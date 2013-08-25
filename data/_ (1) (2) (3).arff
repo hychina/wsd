@@ -1,0 +1,31 @@
+@relation 动
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute word_2 numeric
+@attribute word_3 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,touch,off,use,act}
+
+@data
+{4 c,5 w,6 act}
+{4 d,5 v,6 act}
+{4 d,5 v,6 act}
+{4 d,5 d,6 act}
+{4 c,5 w,6 act}
+{4 v,5 v,6 act}
+{4 c,5 w,6 act}
+{4 a,5 n,6 act}
+{4 d,5 w,6 act}
+{4 d,5 w,6 act}
+{4 f,5 n,6 use}
+{4 v,5 n,6 use}
+{4 n,5 v,6 use}
+{4 d,5 y,6 off}
+{4 d,5 w,6 off}
+{4 d,5 w,6 off}
+{4 u,5 w,6 touch}
+{4 u,5 u,6 touch}
+{4 u,5 w,6 touch}
+{4 u,5 w,6 touch}

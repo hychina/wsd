@@ -1,0 +1,27 @@
+@relation 说明
+
+@attribute word_0 numeric
+@attribute word_1 numeric
+@attribute pos_before {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute pos_after {dummy,Ag,a,ad,an,b,c,Dg,d,e,f,g,h,i,j,k,l,m,Ng,n,nr,ns,nt,nz,na,nx,ne,o,p,q,r,s,Tg,t,u,Vg,v,vd,vn,w,x,y,z,bos,eos}
+@attribute sense {dummy,show,explain}
+
+@data
+{2 n,3 w,4 show}
+{2 c,3 r,4 show}
+{2 n,3 w,4 show}
+{2 w,3 p,4 show}
+{2 n,3 r,4 show}
+{2 d,3 r,4 show}
+{2 v,3 r,4 show}
+{2 c,3 n,4 show}
+{2 w,3 nt,4 show}
+{2 vn,3 n,4 show}
+{2 f,3 w,4 explain}
+{2 w,3 n,4 explain}
+{2 v,3 m,4 explain}
+{2 v,3 c,4 explain}
+{2 q,3 u,4 explain}
+{2 a,3 n,4 explain}
+{2 c,3 n,4 explain}
+{2 c,3 n,4 explain}
